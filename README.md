@@ -17,7 +17,7 @@ CMS管理系统
 
     |-admin     后台入口跳转路径
     |-Core      系统核心
-    |  ├Common      项目公共文件目录
+    |  ├Common      项目公共函数文件目录
     |  ├Conf        项目配置目录
     |  | ├Admin/config.php      项目后台配置文件
     |  | └Home/config.php       项目前台配置文件
