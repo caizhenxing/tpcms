@@ -13,7 +13,7 @@
     $.formValidator.initConfig({formid:"myform",autotip:true,onerror:function(msg,obj){
       window.top.art.dialog({content:msg,lock:true,width:250,height:100,ok:function(){$(obj).focus();}});
     }});
-   $("#db_host").formValidator({onshow:"如果网站系统与数据库服务器相同，请使用 127.0.0.1",onfocus:"数据库所使用的IP地址 本机请填写 127.0.0.1"}).regexValidator({regexp:"ip4",datatype: "enum",onerror:"服务器地址错误"});
+   $("#db_host").formValidator({onshow:"如果网站系统与数据库服务器相同，请使用 localhost",onfocus:"数据库所使用的IP地址 本机请填写 localhost"}).regexValidator({regexp:"ip4_local",datatype: "enum",onerror:"服务器地址错误"});
    $("#db_name").formValidator({onshow:"请输入本系统所使用的数据库",onfocus:"请输入本系统所使用的数据库"}).regexValidator({regexp:"username",datatype: "enum",onerror:"数据库名称错误"});
    $("#db_user").formValidator({onshow:"请输入数据库用户名",onfocus:"请输入数据库用户名"}).regexValidator({regexp:"username",datatype: "enum",onerror:"数据库用户名错误"});
    $("#db_pwd").formValidator({empty:true,onshow:"请输入数据库密码",onfocus:"请输入数据库密码"}).inputValidator({max:250,onerror:"数据库密码不能超过250个字符,请确认"});
