@@ -9,7 +9,8 @@ CMS管理系统
 [ 安装方法 ]
 
     1 创建MYSQL数据库，导入 cms.sql
-    2 根据你的数据库，配置config.php “db_host db_name db_user db_pwd db_port”
+    2 把根目录的config.php.bak文件名改成config.php
+	3 根据你的数据库，配置config.php “db_host db_name db_user db_pwd db_port”
 	3 后台入口 http://domain/admin
 	4 后台帐号密码 admin admin
 
