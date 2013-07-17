@@ -49,3 +49,8 @@ CMS管理系统
     |
     |-config.php    网站配置文件
     └-index.php     系统入口文件
+
+[ 协议 ]
+
+    本系统除ThinkPHP框架外，遵循MIT开源许可协议发布
+	具体参考LICENSE.txt内容
